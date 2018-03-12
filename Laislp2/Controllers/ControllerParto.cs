@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Laislp2.Controllers
 {
-     [Route("Nascimento/Consulta")]
+     [Route("Nascimento/Parto")]
     public class ControllerParto : Controller
     {
         private readonly LaisContext _context;
