@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bolsista\\Documents\\Joyce\\Laislp2\\Laislp2.csproj",
+      "projectUniqueName": "C:\\Users\\bolsista\\Documents\\Joyce\\WebApiLp2\\Laislp2\\Laislp2.csproj",
       "projectName": "Laislp2",
-      "projectPath": "C:\\Users\\bolsista\\Documents\\Joyce\\Laislp2\\Laislp2.csproj",
+      "projectPath": "C:\\Users\\bolsista\\Documents\\Joyce\\WebApiLp2\\Laislp2\\Laislp2.csproj",
       "packagesPath": "C:\\Users\\bolsista\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bolsista\\Documents\\Joyce\\Laislp2\\obj\\",
+      "outputPath": "C:\\Users\\bolsista\\Documents\\Joyce\\WebApiLp2\\Laislp2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

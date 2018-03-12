@@ -8,3 +8,13 @@ C:\Users\bolsista\Documents\Joyce\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.Assemb
 C:\Users\bolsista\Documents\Joyce\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.AssemblyInfo.cs
 C:\Users\bolsista\Documents\Joyce\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.dll
 C:\Users\bolsista\Documents\Joyce\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.pdb
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\bin\Debug\netcoreapp2.0\Laislp2.deps.json
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\bin\Debug\netcoreapp2.0\Laislp2.runtimeconfig.json
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\bin\Debug\netcoreapp2.0\Laislp2.runtimeconfig.dev.json
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\bin\Debug\netcoreapp2.0\Laislp2.dll
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\bin\Debug\netcoreapp2.0\Laislp2.pdb
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.csproj.CoreCompileInputs.cache
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.AssemblyInfoInputs.cache
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.AssemblyInfo.cs
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.dll
+C:\Users\bolsista\Documents\Joyce\WebApiLp2\Laislp2\obj\Debug\netcoreapp2.0\Laislp2.pdb
