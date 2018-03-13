@@ -9,18 +9,18 @@ namespace Laislp2.Models
         public DbSet<Mae> Maes {get; set;}
         public DbSet<Consulta> Consultas {get; set;}
         public DbSet<Parto> Partos {get; set;}
-        public DbSet<MaeConsulta> MaeConcultas {get; set;}
+        public DbSet<MaeConsulta> MaeConsultas {get; set;}
 
         public LaisContext(DbContextOptions<LaisContext> options)
             : base(options)
         {
         }
 
-         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<MaeConsulta>()
                 .HasKey(mc => new { mc.IdMae, mc.IdConsulta});
         }
+        public LaisContext(){}
     }
 }

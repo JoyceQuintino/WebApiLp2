@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Laislp2.Models;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Laislp2.Controllers
 {
@@ -9,6 +10,10 @@ namespace Laislp2.Controllers
     public class ControllerMae : Controller
     {
         private readonly LaisContext _context;
+        public ControllerMae(LaisContext context)
+        {
+            _context = context;
+        }
 
         [HttpGet]
         public IEnumerable<Mae> GetAll()
@@ -32,6 +37,9 @@ namespace Laislp2.Controllers
         {
             if (mae == null)
             {
+                return BadRequest();
+            }
+            if (!ModelState.IsValid){
                 return BadRequest();
             }
 

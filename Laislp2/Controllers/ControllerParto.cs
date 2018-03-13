@@ -10,6 +10,11 @@ namespace Laislp2.Controllers
     {
         private readonly LaisContext _context;
 
+        public ControllerParto(LaisContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet]
         public IEnumerable<Parto> GetAll()
         {

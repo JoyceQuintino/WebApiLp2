@@ -10,6 +10,11 @@ namespace Laislp2.Controllers
     {
         private readonly LaisContext _context;
 
+        public ControllerCrianca(LaisContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet]
         public IEnumerable<Crianca> GetAll()
         {
@@ -38,7 +43,7 @@ namespace Laislp2.Controllers
             _context.Criancas.Add(crianca);
             _context.SaveChanges();
 
-            return CreatedAtRoute("GetCrianca", new { id = crianca.Id }, crianca);
+            return CreatedAtRoute("Crianca", new { id = crianca.Id }, crianca);
         }
 
         [HttpPut("{id}")]

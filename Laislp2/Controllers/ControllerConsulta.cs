@@ -11,6 +11,11 @@ namespace Laislp2.Controllers
     {
         private readonly LaisContext _context;
 
+        public ControllerConsulta(LaisContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet]
         public IEnumerable<Consulta> GetAll()
         {
