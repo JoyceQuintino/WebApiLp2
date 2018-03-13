@@ -62,7 +62,6 @@ namespace Laislp2.Controllers
             ma.QuantFilhosMortos = mae.QuantFilhosMortos;
             ma.QuantFilhosVivos = mae.QuantFilhosVivos;
 
-
             _context.Maes.Update(ma);
             _context.SaveChanges();
             return new NoContentResult();

@@ -38,11 +38,11 @@ namespace Laislp2.Controllers
             _context.Criancas.Add(crianca);
             _context.SaveChanges();
 
-            return CreatedAtRoute("Crianca", new { id = crianca.Id }, crianca);
+            return CreatedAtRoute("GetCrianca", new { id = crianca.Id }, crianca);
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(long id, [FromBody] Crianca crianca)
+        public IActionResult Update(int id, [FromBody] Crianca crianca)
         {
             if (crianca == null || crianca.Id != id)
             {

@@ -5,6 +5,6 @@ namespace Laislp2.Models
         public int Id {get; set;}
         public string LocalNasci {get; set;}
         public string Horario {get; set;}
-        public Mae IdMae {get; set;}
+        public int IdMae {get; set;}
     }
 }
